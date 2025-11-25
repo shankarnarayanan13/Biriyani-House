@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    background: #8B0000;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffddcc;
+}
+
+/* HERO */
+.hero {
+    height: 85vh;
+    background: url('biriyani.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    text-shadow: 3px 3px 6px #000;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.btn {
+    background: #FF4500;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #FF4500;
+}
+
+
+/* PRODUCTS */
+.products {
+    padding: 60px 50px;
+    background: #fff4eb;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+/* OFFERS */
+.offers {
+    padding: 60px 50px;
+    background: #ffe6d2;
+}
+
+.offers h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.offers ul {
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/* ABOUT */
+.about {
+    padding: 60px 50px;
+    text-align: center;
+    background: #fff8f0;
+}
+
+.about h2 {
+    font-size: 32px;
+}
+
+.about p {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* CONTACT FORM */
+.contact {
+    padding: 60px 50px;
+    background: #fff4eb;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 40%;
+    margin: left;
+    gap: 20px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.input-group {
+    margin-bottom: 0px;
+}
+
+.input-group label {
+    font-size: 18px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 80%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.phone {
+    margin-top: 20px;
+    font-size: 18px;
+   text-align: right;
+   margin-bottom: auto;
+}
+.bottom {
+    margin-top: -200px;
+    margin-left: -80px;
+}
+
+.calls{
+    margin-top: -150px;
+    margin-left: 75%;
+}
+
+/* FOOTER */
+footer {
+    background: #8B0000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
